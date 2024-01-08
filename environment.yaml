@@ -1,0 +1,10 @@
+name: dsci524
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipykernel
+  - ipywidgets
+  - pip
+
