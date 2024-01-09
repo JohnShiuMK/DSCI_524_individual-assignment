@@ -1,10 +1,13 @@
-name: dsci524
+name: 'pycounts_johnshiu'
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
   - ipykernel
   - ipywidgets
   - pip
-
+  - python
+  - cookiecutter
+  - jupyterlab
+  - pip:
+    - poetry
