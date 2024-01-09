@@ -7,8 +7,9 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-matplotlib = "^3.8.2"
+#python = "^3.9" # requires this or any higher version that does not modify the left-most non-zero version digit
+python = ">=3.9" # requires this or any higher version that does not modify the left-most non-zero version digit
+matplotlib = ">=3.8.2"
 
 [tool.poetry.dev-dependencies]
 
