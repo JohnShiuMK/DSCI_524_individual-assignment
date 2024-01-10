@@ -1,0 +1,23 @@
+:py:mod:`pycounts_johnshiu`
+===========================
+
+.. py:module:: pycounts_johnshiu
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   plotting/index.rst
+   pycounts/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+
