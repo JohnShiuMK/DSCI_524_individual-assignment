@@ -10,12 +10,12 @@ $ pip install pycounts_johnshiu
 
 ## Usage
 
-`pycounts` can be used to count words in a text file and plot results
+`pycounts_johnshiu` can be used to count words in a text file and plot results
 as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+from pycounts_johnshiu.pycounts import count_words
+from pycounts_johnshiu.plotting import plot_words
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
@@ -34,4 +34,4 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## Credits
 
-`pycounts_johnshiu` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`pycounts_johnshiu` was created with [Py-Pkgs tutorial](https://py-pkgs.org/03-how-to-package-a-python), [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
